@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.wrapper{
+min-height: 100%;
+}
+.container{
+   max-width: 1135px;
+   margin: 0 auto; 
+   padding: 0px 5px;
+}
+
+.header__container{
+    display: flex;
+}
+.header {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Hind Madurai', sans-serif;
+}
+.header__img {
+width: 79px;
+height: 79px;
+}
+.header__ul {
+display: flex;
+}
+.header__element {   
+padding: 0px 40px 0px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+.header__a {
+font-family: 'Roboto', sans-serif;
+}
+.btn {
+width: 165px;
+height: 49px;
+background: #D23166;
+border-radius: 5px;
+color: white;
+border: none;
+cursor: pointer;
+}
+.header-block__img{
+}
+
+.home__header{
+color: #D23166;
+}
+.ac{
+color:#150101;
+opacity:0.6;
+}
+.hero__container {
+display: flex;
+align-items: center;
+}
+.hero-area__txt1 {
+font-family: 'Roboto', sans-serif;
+}
+.hero-area__txt2 {
+font-family: 'Fredoka';
+color: #0F0101;
+opacity: 0.9;
+font-style: normal;
+font-weight: 400;
+font-size: 57.33px;
+line-height: 120.5%;
+}
+.os {
+color: #D23166;
+/* Это блок в котором находится большая надпись с другим цветом */
+}
+.hero-area__txt3 {
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #0F0101;
+opacity: 0.6;
+}
+
+.hero-area__imgblock {
+}
+.hero-area__img {
+
+}
+
+.list{
+    list-style: none;
+}
+
+.delivery {
+box-align: center;
+}
+
+.delivery__list {
+    vertical-align: auto;
+}
+.delivery__element {
+padding: 26px;
+}
+.delivery__img-element {
+
+}
+.delivery-element__header {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px
+}
+.delivery-element__text {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+.see-details {
+    display: flex;
+    background-color: #F8EDF0;
+}
+.see-details__list {
+
+}
+
+.text__name {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+}
+.see-details__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.seedetails__img {
+}
+.Product__section {
+}
+.header__section-product {
+    padding: 40px;
+}
+.h1__product {
+text-align: center;
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 61px;
+color: #150101;
+}
+.product__section-list {
+    box-align: center;
+}
+.element__style2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.element__product-header {
+}
+.element-product_list__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 40px ;
+}
+.center__product-section {
+}
+.product__list {
+}
+.element-product__list {
+    display: flex;
+}
+.img__product-element {
+    background-color: beige;
+    flex: 1 1 50%;
+}
+.img__product__list-img {
+}
+.product__element-text {
+flex: 1 1 50%;
+}
+.element-product__list :nth-child(even){
+    flex-direction: row-reverse;
+}
+.text__header-product {
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+}
+.text__element-product__list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pricec {
+padding: 5px ;
+}
+.new__price {
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+color: #000000;    
+}
+.old__price {
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+color: #000000;
+opacity: 0.7;
+}
+.feedback__container {
+}
+.display {
+}
+.comment {
+}
+.name {
+}
+.img__name {
+width: 59px;
+height: 58px;
+padding-right: 11px;
+padding-bottom: 46px;
+}
+.name__txt {
+}
+.namead {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+.strana {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #000000;
+opacity: 0.7;
+}
+.comments {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+opacity: 0.7;
+}
+.com {
+}
+.img__feedback {
+}
+.feedback__img {
+}
+.down__block {
+
+}
+.left {
+    width: 14px;
+height: 14px;
+padding-top: 78px;
+}
+.onepicture {
+    width: 35px;
+height: 35px;
+padding-left: 25px;
+padding-top: 67px;
+}
+.twopicture {
+    padding-top: 56px;
+    width: 57.81px;
+height: 57.81px;
+padding-left: 27px;
+padding-right: 16.19px;
+}
+.threepicture {
+    width: 35px;
+    padding-top: 67px;
+    height: 35px;
+}
+.right {
+    width: 14px;
+    padding-top: 78px;
+height: 14px;
+padding-left: 25px;
+}
+.download__menu {
+    background-color: #F8EDF0;
+    font-family: 'Roboto';
+    
+    
+}
+
+.download__menu-img {
+}
+.Dowload_telephone {
+    padding-left: 206px;
+}
+.download__text {
+}
+.header__text-download {
+font-style: normal;
+font-weight: 500;
+font-size: 44.2px;
+line-height: 52px;
+color: #000000;
+}
+.bacic__text-download {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.01em;
+color: #0F0101;
+opacity: 0.7;
+}
+.downloader__list {
+}
+.text__download_many{
+    padding-left: 134px;
+    padding-top: 129px;
+    padding-bottom: 150px;
+}
+.downloader__list-element {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+.oao {
+background: #FFFFFF;
+border-radius: 3px;
+width: 30px;
+height: 30px;
+
+}
+.downloader_Element-img {
+}
+.list_text_element__downloader {
+    padding-right: 10px;
+}
+.download__links {
+}
+.Link__google {
+}
+.Link__Apple {
+}
+.downloader__list-element {
+}
+.text__input{
+background: #FAFAFA;
+border-radius: 5px;
+width: 637px;
+height: 74px;
+}
+.footer {
+    background-color: #0F0101;
+    color: white;
+    display: flex;
+    width: 1600px;
+    height: 381px;
+}
+.one__per {
+}
+.one-per__text {
+}
+.one-per__list {
+    padding: 10px;
+}
+.one-per__element {
+}
+.img__fllow {
+}
+.img1 {
+}
+.img2 {
+}
+.img3 {
+}
+.img4 {
+}
+.two__per {
+}
+.two-per__list {
+}
+.two-per__element {
+}
+.two-per__link {
+}
+.thr__per {
+}
+.thr-per__list {
+}
+.thr-per__element {
+}
+.thr-per__link {
+}
+.fou__per {
+}
+.Newsletter {
+}
+.text__input__end {
+background-color: black;
+width: 388px;
+height: 55px;
+opacity: 0.5;
+border: 2px solid #D64374;
+border-radius: 5px;  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.fou-per__list {
+}
+.fou-per__element {
+}
+.img__fou-per {
+    padding: 15px;
+}
+.img5 {
+}
+.img6 {
+}
+.img7 {
+}
+.fou__per-input21{
+    background: #D23166;
+    border-radius: 5px;
+    width: 125px;
+height: 55px;
+}
+.send{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+color: #000000;
+}
+.qestions__submit{
+font-family: 'Roboto';
+font-style: normal;
+width: 134px;
+height: 74px;
+text-align: center;
+color: #000000;
+background-color: #D23166;
+}
+.qestions{
+
+}
